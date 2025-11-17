@@ -18,7 +18,7 @@
 
 bool isDivisible(int num1, int num2);
 
-int main()
+int main5()
 {
 	int numA, numB;
 	bool numDivisible = false;
@@ -44,6 +44,7 @@ int main()
 		}
 	}
 	
+	system("pause");
 	return 0;
 }
 
