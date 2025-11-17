@@ -1,0 +1,48 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 22/10/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 7.1 - Q9: Perimeter of Rectangle
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data 1: 5 3 should be 16
+// Test data 2: -4 2 should be Error
+// Test data 3: 0 7 should be Error
+// Test data 4: 6 4 should be 20
+// Test data 5: 10 2.5 should be 25
+// ---------------------------------------------------------------------------
+
+START
+
+    // Declare variables
+    DECLARE length AS FLOAT
+    DECLARE width AS FLOAT
+
+    // Display messages and input
+    DISPLAY "Enter length: "
+    INPUT length
+
+    DISPLAY "Enter width: "
+    INPUT width
+
+    // Validation check
+    IF (length <= 0 OR width <= 0) THEN
+        DISPLAY "Error, number cannot be less or equal to 0"
+    ELSE
+        CALL calPerimeterRectangle(length, width)
+    END IF
+
+// ---------------------------------------------------------------------------
+// FUNCTION: calPerimeterRectangle
+// Calculates and displays the perimeter of a rectangle
+// ---------------------------------------------------------------------------
+FUNCTION calPerimeterRectangle(t_length AS FLOAT, t_width AS FLOAT)
+    DECLARE perimeter AS FLOAT
+
+    SET perimeter = 2 * (t_length + t_width)
+    DISPLAY "Perimeter of rectangle: " + perimeter
+END FUNCTION
+
+END
