@@ -1,0 +1,57 @@
+// 8/10/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Labsheet 6: Vending Machine Game – Design Only
+
+START
+
+//put variables
+user_coins = 0;
+item_cost = 0;
+
+//input & text #1
+display message "Vending Machine Game\n";
+display message "Please enter your amount of cents: ";
+input user_coins; 
+
+//negative or 0 number check
+if (user_coins <= 0)
+	display message "You entered incorrect number of coins"
+end if
+
+//input & text #2
+display message "Select the item cost(in cents): "
+input item_cost;
+
+//check item cost
+if (item_cost <= 0) // Check if price equals 0 or negative
+	display message "You entered incorrect price"
+else if (item_cost > user_coins) // Check if price higher than coins user entered
+	display message "Price can't be higher than you have money"
+end if
+
+//calculations
+total_coins = user_coins - item_cost;
+
+cent_100 = total_coins / 100; //devide total coins to 100, 200/100 = 2
+total_coins %= 100; //showing rest of the coins (I don't know how to explain...)
+cent_50 = total_coins / 50;
+total_coins %= 50;
+cent_20 = total_coins / 20;
+total_coins %= 20;
+cent_10 = total_coins / 10;
+total_coins %= 10;
+cent_5 = total_coins / 5;
+total_coins %= 5;
+cent_2 = total_coins / 2;
+total_coins %= 2;
+cent_1 = total_coins;
+
+//output
+display message "Number of coins by 100c: " + cent_100;
+display message "Number of coins by 50c: " + cent_50;
+display message "Number of coins by 20c: " + cent_20;
+display message "Number of coins by 10c: " + cent_10;
+display message "Number of coins by 5c: " + cent_5;
+display message "Number of coins by 2c: " + cent_2;
+display message "Number of coins by 1c: " + cent_1;

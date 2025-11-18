@@ -1,0 +1,42 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 22/10/2025
+// Approximate time taken: 50 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 7.1 - Q6
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+
+START
+
+    // Declare variables
+    DECLARE cm AS FLOAT
+    SET cm = 0
+
+    // Display message and input
+    DISPLAY "Enter centimeters: "
+    INPUT cm
+
+    // If & Else
+    IF cm <= 0 THEN
+        DISPLAY "Error, number cannot be less or equal to 0"
+    ELSE
+        CALL inchEquivalent(cm)
+    END IF
+
+// ---------------------------------------------------------------------------
+// FUNCTION: inchEquivalent
+// ---------------------------------------------------------------------------
+FUNCTION inchEquivalent(t_cm)
+    DECLARE CONSTANT CM_TO_INCH = 0.394
+    DECLARE inch AS FLOAT
+
+    SET inch = t_cm * CM_TO_INCH
+    DISPLAY "Centimeters in inch: " + inch
+END FUNCTION
+
+END
+
+// Test data 1: 10 should be 3.94
+// Test data 2: -5 should be Error
+// Test data 3: 0 should be Error

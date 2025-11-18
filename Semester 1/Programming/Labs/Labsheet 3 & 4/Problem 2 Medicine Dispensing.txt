@@ -1,0 +1,32 @@
+// 29/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 2: Medicine Dispensing (Past Written Exam 1 Question)
+
+//Variables
+litres = 0.00f;
+mililitres = 0.00f;
+mil_for_inj = 0.00f;
+injections = 0.00f;
+injectionsTotal = 0.00f;
+injectionsLeft = 0.00f;
+
+//Text and input
+display message "Medicine Dispensing";
+display message "Please enter amount of litres: ";
+input litres
+display message "Please enter amount of mililitres per injection: ";
+input mil_for_inj;
+
+//Calculating
+mililitres = litres * 1000;
+while(true)
+	if(mililitres < mil_for_inj)
+		break;
+	else
+		mililitres = mililitres - mil_for_inj;
+		injectionsTotal++;
+		
+//Result
+display message "Total amount of injections: " + injectionsTotal;
+display message "Medicine left: " + mililitres;

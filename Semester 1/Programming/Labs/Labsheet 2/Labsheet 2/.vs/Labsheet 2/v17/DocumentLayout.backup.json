@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 5 Elevator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|solutionrelative:Labsheet 2\\Problem 5 Elevator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 3 Meal Deal Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|solutionrelative:Labsheet 2\\Problem 3 Meal Deal Order.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 2 The Ratio Problem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|solutionrelative:Labsheet 2\\Problem 2 The Ratio Problem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 1 Hard disk sizes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|solutionrelative:Labsheet 2\\Problem 1 Hard disk sizes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 4 Ordering Felt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{180C4635-428F-40DE-8060-2DB0EB82511B}|Labsheet 2\\Labsheet 2.vcxproj|solutionrelative:Labsheet 2\\Problem 4 Ordering Felt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem 5 Elevator.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 5 Elevator.cpp",
+              "RelativeDocumentMoniker": "Labsheet 2\\Problem 5 Elevator.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 5 Elevator.cpp",
+              "RelativeToolTip": "Labsheet 2\\Problem 5 Elevator.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-29T08:40:12.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Problem 4 Ordering Felt.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 4 Ordering Felt.cpp",
+              "RelativeDocumentMoniker": "Labsheet 2\\Problem 4 Ordering Felt.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 4 Ordering Felt.cpp",
+              "RelativeToolTip": "Labsheet 2\\Problem 4 Ordering Felt.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-29T08:40:03.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Problem 3 Meal Deal Order.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 3 Meal Deal Order.cpp",
+              "RelativeDocumentMoniker": "Labsheet 2\\Problem 3 Meal Deal Order.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 3 Meal Deal Order.cpp",
+              "RelativeToolTip": "Labsheet 2\\Problem 3 Meal Deal Order.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAE0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-29T08:39:43.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Problem 2 The Ratio Problem.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 2 The Ratio Problem.cpp",
+              "RelativeDocumentMoniker": "Labsheet 2\\Problem 2 The Ratio Problem.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 2 The Ratio Problem.cpp",
+              "RelativeToolTip": "Labsheet 2\\Problem 2 The Ratio Problem.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-29T08:34:41.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Problem 1 Hard disk sizes.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 1 Hard disk sizes.cpp",
+              "RelativeDocumentMoniker": "Labsheet 2\\Problem 1 Hard disk sizes.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 2\\Labsheet 2\\Problem 1 Hard disk sizes.cpp",
+              "RelativeToolTip": "Labsheet 2\\Problem 1 Hard disk sizes.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-29T08:20:56.095Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

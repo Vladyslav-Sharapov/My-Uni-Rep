@@ -1,0 +1,32 @@
+// 29/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 1: The Fly-Sugar problem
+
+START
+
+//Variables
+length = 0.00f;
+width = 0.00f;
+height = 0.00f;
+distance = 0.00f;
+floor_area = 0.00f;
+
+//Text & Input
+display message "Fly problem \n"
+display message "Please enter length of the room";
+input length;
+display message "Please enter width of the room"
+input width;
+display message "Please enter height of the room"
+input height;
+
+//Calculation proccess
+distance = sqrt((length * length) + (width * width) + (height * height))
+floor_area = length * width;
+
+//Result
+display message "Floor area of the room is: " + floor_area;
+display message "Shortest distance to the sugar is: " + distance;
+
+END

@@ -1,0 +1,18 @@
+// 13/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q5
+
+START
+
+celcius = 0;
+fahrenheit = 0;
+
+display message "Celsius from Fahrenheit";
+display message "Enter fahrenheit temperature: ";
+input fahrenheit;
+
+celcius = (fahrenheit - 32) * 5 / 9;
+
+display message "Your celcius temperature is: " + celcius;
+
+END

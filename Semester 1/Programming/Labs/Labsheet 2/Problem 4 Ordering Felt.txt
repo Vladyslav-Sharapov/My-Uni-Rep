@@ -1,0 +1,38 @@
+// 22/9/25
+// Vladyslav Sharapov
+// Design Algorithms
+// Problem 4: Ordering Felt
+
+START
+
+    Display message "Felt Ordering System"
+    Display message "How much felt do you want - enter in meters and centimeters?"
+    input total_meters_and_centimeters   // e.g. 1.50 means 1.50 meters
+
+    // Convert user input into centimeters
+    user_length_cm = total_meters_and_centimeters * 100
+
+    // Define roll size in feet and inches
+    feet = 6
+    inches = 8
+
+    // Conversion factors
+    cm_per_inch = 2.54
+    cm_per_foot = 12 * cm_per_inch
+
+    // Calculate roll length in centimeters
+    roll_length_cm = (feet * cm_per_foot) + (inches * cm_per_inch)
+
+    // Calculate number of rolls required
+    rolls_needed = CEILING(user_length_cm / roll_length_cm)
+
+    // Calculate total supplied felt length
+    total_supplied_cm = rolls_needed * roll_length_cm
+
+    // Calculate unused felt in centimeters
+    not_needed_cm = total_supplied_cm - user_length_cm
+
+    Display message "You will need this number of rolls: " + rolls_needed
+    Display message "Number of centimeters not needed: " + not_needed_cm
+
+END

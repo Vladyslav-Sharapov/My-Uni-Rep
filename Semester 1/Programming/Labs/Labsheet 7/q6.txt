@@ -1,0 +1,21 @@
+// 15/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q6
+
+START
+
+// Variables 
+centimiters = 0;
+inches = 0
+
+display message "Please enter your centimiters: "
+input centimiters
+
+if (centimiters <= 0)
+	display message "Error. Number of centimiters cannot be less or equal to 0"
+else
+	inches = centimiters * 0.394
+	Disolay message "Centimiters in inches: " + inches
+end if
+
+END

@@ -1,0 +1,33 @@
+// 15/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q12
+
+START
+bill_amount = 0;
+interst = 0;
+
+display message "Enter the amount of your credit card bill (€): ";
+input bill_amount;
+
+if (bill_amount <= 0)
+	display message "Error. Bill cannot be less or equal to zero";
+else if (bill_amount <= 500)
+	{
+	interst = bill_amount * 0.12;
+	display message "Total interest due: €" + interest;
+	}
+else
+{
+	interest = (500 * 0.12) + ((bill_amount - 500) * 0.18);
+	display message "Total interest due: €" + interest;
+}
+end if
+
+END
+
+// Test data 1: -100 should be Error
+// Test data 2: 0 should be Error
+// Test data 3: 100 should be 12
+// Test data 4: 500 should be 60
+// Test data 5: 600 should be 78
+// Test data 6: 1000 should be 150

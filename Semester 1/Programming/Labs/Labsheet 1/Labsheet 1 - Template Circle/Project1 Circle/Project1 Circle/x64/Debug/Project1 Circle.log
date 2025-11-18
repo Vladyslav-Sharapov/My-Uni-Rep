@@ -1,0 +1,6 @@
+﻿  Part1.cpp
+M:\Programming\Labs\Labsheet 1\Labsheet 1 - Template Circle\Project1 Circle\Project1 Circle\Part1.cpp(19,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Part2.cpp
+M:\Programming\Labs\Labsheet 1\Labsheet 1 - Template Circle\Project1 Circle\Project1 Circle\Part2.cpp(17,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  Project1 Circle.vcxproj -> M:\Programming\Labs\Labsheet 1\Labsheet 1 - Template Circle\Project1 Circle\x64\Debug\Project1 Circle.exe

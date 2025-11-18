@@ -1,0 +1,50 @@
+// 15/10/25
+// Vladyslav Sharapov
+// Labsheet 7: Q14 - Insurance Premium Calculation
+
+START
+
+// Variables
+last_year_premium = 0
+base_premium = 0
+new_premium = 0
+renewal_premium = 0
+number_of_claims = 0
+
+// Display, Input
+Display message "Enter last year's premium:"
+input last_year_premium
+
+Display message "Enter the number of claims made:"
+input number_of_claims
+
+// IF, ELSE
+if (last_year_premium <= 0 or number_of_claims < 0) then
+	Display message "Error. Invalid input values."
+else
+	// Step 1: Convert to base premium before bonus
+	base_premium = last_year_premium * 2
+
+	// Step 2: Add 5% increase
+	new_premium = base_premium * 1.05
+
+	// Step 3: Apply bonus/penalty
+	if (number_of_claims == 0) then
+		renewal_premium = new_premium * 0.5 // full 50% bonus
+	else if (number_of_claims == 1) then
+		renewal_premium = new_premium * 0.75 // lose half of bonus
+	else
+		renewal_premium = new_premium * 1.0 // lose all bonus
+	end if
+
+	Display message "Your renewal premium is: " + renewal_premium
+end if
+
+END
+
+// Test data
+// 1: €500, 0 claims == €525.00
+// 2: €500, 1 claim  == €787.50
+// 3: €500, 2 claims == €1050.00
+// 4: €300, 3 claims == €630.00
+// 5: €-100, 1 claim == Error

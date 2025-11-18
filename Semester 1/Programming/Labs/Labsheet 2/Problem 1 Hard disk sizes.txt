@@ -1,0 +1,24 @@
+// 22/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 1: Hard disk sizes
+
+// Start
+
+// declare variables;
+user = 0;
+nick = 0;
+alf = 0;
+
+// show text & put infromation into variables
+display message "Please enter you disk size in GB"
+input user;
+
+// calculate;
+nick = user / 1.5;
+alf = user / 3;
+
+// display answer;
+display text "Your disk size is: " + user;
+display text "Nick's disk size is: " + nick;
+display text "Alf's disk size is: " + alf;

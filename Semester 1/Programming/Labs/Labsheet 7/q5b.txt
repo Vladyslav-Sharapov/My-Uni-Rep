@@ -1,0 +1,30 @@
+// 13/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q5(B)
+
+START
+
+num1 = 0;
+num2 = 0;
+num3 = 0;
+
+display text "Enter first number (1 - 15): "
+input num1;
+
+display text "Enter second number (1 - 15): "
+input num2;
+
+display text "Enter third number (1 - 15): "
+input num3;
+
+if (num1 <1 || num1 >15 || num2 <1 || num2 >15 || num3 <1 || num3 >15)
+	display text "Error. Number can't be less than 1 and higher than 15";
+else if (num1 <= num2 && num1 <= num3)
+	display message "Lowest number is:" + num1;
+else if (num2 <= num1 && num2 <= num3)
+	display message "Lowest number is:" + num2;
+else
+	display message "Lowest number is:" + num3;
+end if
+
+END

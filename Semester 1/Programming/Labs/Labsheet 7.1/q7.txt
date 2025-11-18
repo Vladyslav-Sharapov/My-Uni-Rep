@@ -1,0 +1,54 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 22/10/25
+// Approximate time taken: 15 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 7.1 - Q7: Convert Hours, Minutes, Seconds to Total Seconds
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data 1: 1 30 15 should be 5415
+// Test data 2: -1 20 30 should be Error
+// Test data 3: 0 0 0 should be Error
+// ---------------------------------------------------------------------------
+
+START
+
+    // Declare variables
+    DECLARE hours AS INTEGER
+    DECLARE minutes AS INTEGER
+    DECLARE seconds AS INTEGER
+
+    // Display messages and input
+    DISPLAY "Enter hours: "
+    INPUT hours
+
+    DISPLAY "Enter minutes: "
+    INPUT minutes
+
+    DISPLAY "Enter seconds: "
+    INPUT seconds
+
+    // Validation checks
+    IF (hours < 0 OR minutes < 0 OR seconds < 0) THEN
+        DISPLAY "Error, number cannot be less than 0"
+    ELSE IF (hours = 0 AND minutes = 0 AND seconds = 0) THEN
+        DISPLAY "Error, all numbers cannot equal to 0"
+    ELSE
+        CALL secondsIn(hours, minutes, seconds)
+    END IF
+
+// ---------------------------------------------------------------------------
+// FUNCTION: secondsIn
+// Converts hours, minutes, and seconds into total seconds
+// ---------------------------------------------------------------------------
+FUNCTION secondsIn(t_hours AS INTEGER, t_minutes AS INTEGER, t_seconds AS INTEGER)
+    DECLARE CONSTANT HOUR_TO_SECONDS = 3600
+    DECLARE CONSTANT MINUTE_TO_SECONDS = 60
+    DECLARE totalSeconds AS INTEGER
+
+    SET totalSeconds = (t_hours * HOUR_TO_SECONDS) + (t_minutes * MINUTE_TO_SECONDS) + t_seconds
+    DISPLAY "Total time in seconds: " + totalSeconds
+END FUNCTION
+
+END

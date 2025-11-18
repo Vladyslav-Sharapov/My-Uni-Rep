@@ -1,0 +1,23 @@
+// Vladyslav Sharapov
+// Introduction In Programming
+// 15/09/25
+// Radius of Circle from circumference
+
+// declare variables
+
+radius = 0; 
+Pi = 3.14159;
+circumference =0;
+
+// get data
+
+display message "Please enter the circumference of the circle";
+input circumference;
+
+// do maths
+
+radius = circumference / (2 * Pi);
+
+// show answer
+
+display message "Radius is: " + radius;

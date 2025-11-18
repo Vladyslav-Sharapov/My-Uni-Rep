@@ -1,0 +1,29 @@
+// 15/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q7
+
+START
+
+// Variables 
+hours = 0;
+minutes = 0;
+seconds = 0;
+total_seconds = 0;
+
+display message "Please enter the number of hours: ";
+input hours;
+
+display message "Please enter the number of minutes: ";
+input minutes;
+
+display message "Please enter the number of seconds: ";
+input seconds;
+
+if (hours < 0 || minutes < 0 || seconds < 0)
+	display message "Error. Number cannot be less than zero";
+else
+	total_seconds = (hours * 3600) + (minutes * 60) + seconds; //1 hour = 3,600s
+	
+	display message "Your total seconds: " + total_seconds;
+	
+END

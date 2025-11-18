@@ -1,0 +1,22 @@
+// 29/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 7: The Ant-Sugar problem
+
+START
+
+Display message "Enter the length of the room (meters):"
+input length
+
+Display message "Enter the width of the room (meters):"
+input width
+
+Display message "Enter the height of the room (meters):"
+input height
+
+// Calculate the shortest path
+distance = SQRT((length + width) * (length + width) + (height * height))
+
+Display message "The shortest walking route to the sugar is: " + distance + " meters"
+
+END

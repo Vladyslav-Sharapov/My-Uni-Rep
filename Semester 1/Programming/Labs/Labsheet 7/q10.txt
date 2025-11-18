@@ -1,0 +1,25 @@
+// 15/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q10
+
+START
+
+//Varialbes
+amount = 0;
+ten_notes = 0;
+one_coin = 0;
+
+//Display, Input
+display message "Enter the amount in euro: ";
+input amount;
+
+if (amount <= 0)
+	display message "Error. Number cannot be less than zero";
+else
+	ten_notes = amount / 10;
+	one_coin = amount % 10;
+	display message "You have " + ten_notes + ", 10 euro notes and " 
+		+ one_coin + ", 1 euro coins";
+end if
+
+END	

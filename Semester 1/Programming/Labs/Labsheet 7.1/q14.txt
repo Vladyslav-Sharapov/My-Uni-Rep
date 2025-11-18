@@ -1,0 +1,65 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 03/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 7.1 - Q14: Calculation of the Insurance Premium for the Coming Year
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data 1: 0 0 should be Error
+// Test data 2: -100 2 should be Error
+// Test data 3: 200 0 should be 210
+// Test data 4: 150 1 should be 236.25
+// Test data 5: 300 3 should be 630
+// ---------------------------------------------------------------------------
+
+START
+
+    // Declare variables
+    DECLARE last_year_premium AS REAL
+    DECLARE number_of_claims AS INTEGER
+
+    // Display messages and input
+    DISPLAY "Enter last year's premium: "
+    INPUT last_year_premium
+
+    DISPLAY "Enter the number of claims made: "
+    INPUT number_of_claims
+
+    // Validate input
+    IF (last_year_premium <= 0 OR number_of_claims < 0) THEN
+        DISPLAY "Error. Invalid input values."
+    ELSE
+        CALL calculatePremium(last_year_premium, number_of_claims)
+    END IF
+
+// ---------------------------------------------------------------------------
+// FUNCTION: calculatePremium
+// Calculates the renewal premium for the coming year based on claims
+// ---------------------------------------------------------------------------
+FUNCTION calculatePremium(t_last_year_premium AS REAL, t_number_of_claims AS INTEGER)
+    DECLARE base_premium AS REAL
+    DECLARE new_premium AS REAL
+    DECLARE renewal_premium AS REAL
+
+    // Step 1: Convert to base premium before bonus
+    SET base_premium = t_last_year_premium * 2
+
+    // Step 2: Add 5% increase
+    SET new_premium = base_premium * 1.05
+
+    // Step 3: Apply bonus/penalty based on number of claims
+    IF (t_number_of_claims = 0) THEN
+        SET renewal_premium = new_premium * 0.5       // Full 50% bonus
+    ELSE IF (t_number_of_claims = 1) THEN
+        SET renewal_premium = new_premium * 0.75      // Lose half of bonus
+    ELSE
+        SET renewal_premium = new_premium             // Lose all bonus
+    END IF
+
+    DISPLAY "Your renewal premium is: " + renewal_premium
+
+END FUNCTION
+
+END

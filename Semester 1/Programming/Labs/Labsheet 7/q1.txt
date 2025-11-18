@@ -1,0 +1,22 @@
+// 13/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q1
+
+START
+
+number = 0;
+
+display message "Please enter your number: ";
+input number;
+
+if (number == 0)
+	display message "number was equal to zero";
+	
+else if (number < 0)
+	display message "number was less than zero";
+else 
+	display message "number was greater than zero";
+
+end if
+
+END

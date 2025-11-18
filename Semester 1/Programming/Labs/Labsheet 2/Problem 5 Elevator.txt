@@ -1,0 +1,30 @@
+// 22/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 5: Elevator
+
+START
+
+Display message "How many children are getting into the lift?"
+input number_of_children
+
+if (number_of_children < 0)
+	Display message "Error. Number of children cannot be negative."
+	return
+end if
+
+total_capacity_children = 20
+total_capacity_adults = 15
+  
+	Calculate the proportion of elevator space used by children
+child_ratio = number_of_children / total_capacity_children
+
+	Calculate how many adults can still fit based on remaining capacity
+remaining_adult_capacity = total_capacity_adults * (1 - child_ratio)
+
+	Round down to nearest whole number (since you can't have part of an adult)
+adults_allowed = remaining_adult_capacity
+
+  Display message adults_allowed + " adults can still get into the lift."
+
+END
