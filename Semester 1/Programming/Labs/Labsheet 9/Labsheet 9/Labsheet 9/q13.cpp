@@ -3,9 +3,13 @@
 // Date: 24/11/25
 // Approximate time taken: 15 min
 // ---------------------------------------------------------------------------
-// Program: Labsheet 9 - Q13:
+// Program: Labsheet 9 - Q13: Find the first and last occurrence of the number 9
 // ---------------------------------------------------------------------------
 // Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data 1: 5 numbers: 1, 9, 3, 9, 5 -> First occurrence of 9: 2, Last occurrence of 9: 4
+// Test data 2: 3 numbers: 1, 2, 3 -> First occurrence of 9: 0, Last occurrence of 9: 0
+// Test data 3: 6 numbers: 9, 9, 9, 9, 9, 9 -> First occurrence of 9: 1, Last occurrence of 9: 6
 // ---------------------------------------------------------------------------
 
 #include <iostream>
@@ -27,9 +31,9 @@ void findOccurences()
     cout << "How many numbers do you want to enter? ";
     cin >> num;
 
-    while (!(cin >> num) || num < 0)
+    while (num < 0)
     {
-        cout << "Error"; 
+        cout << "Error";
         cout << "How many numbers do you want to enter? ";
         cin >> num;
     }

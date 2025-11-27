@@ -1,0 +1,72 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q5: Program that asks the user how many numbers they
+//          want, then counts sum and odd numbers
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data 1: 5 numbers: 10, 15, 22, 33, 40 → Total = 120, Odd count = 2, Odd sum = 48
+// Test Data 2: 3 numbers: 1, 3, 5 → Total = 9, Odd count = 3, Odd sum = 9
+// Test Data 3: 4 numbers: 2, 4, 6, 8 → Total = 20, Odd count = 0, Odd sum = 0
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID calculateNumbers(INTEGER count)
+
+MAIN FUNCTION
+
+    // SET VARIABLES
+    INTEGER count
+
+    DISPLAY MESSAGE "Enter how many numbers you want: "
+    INPUT count
+
+    // VALIDATE INPUT
+    IF (count <= 0) THEN
+        DISPLAY MESSAGE "Invalid input. Please enter a positive integer."
+    ELSE
+        // CALL FUNCTION
+        calculateNumbers(count)
+    END IF
+
+END MAIN FUNCTION
+
+
+// FUNCTION: calculateNumbers
+VOID calculateNumbers(INTEGER count)
+
+    // SET VARIABLES
+    INTEGER num
+    INTEGER sumAll = 0
+    INTEGER sumOdd = 0
+    INTEGER oddCount = 0
+
+    // LOOP FOR USER INPUT
+    FOR (INTEGER i = 1; i <= count; i++)
+        DISPLAY MESSAGE "Enter number " + i + ": "
+        INPUT num
+
+        sumAll = sumAll + num
+
+        // CHECK IF ODD
+        IF (num MOD 2 != 0) THEN
+            oddCount = oddCount + 1
+            sumOdd = sumOdd + num
+        END IF
+
+    END FOR
+
+    // DISPLAY RESULTS
+    NEW LINE
+    DISPLAY MESSAGE "Total sum of all numbers: " + sumAll
+    DISPLAY MESSAGE "Number of odd numbers: " + oddCount
+    DISPLAY MESSAGE "Total sum of odd numbers: " + sumOdd
+
+END FUNCTION
+
+END

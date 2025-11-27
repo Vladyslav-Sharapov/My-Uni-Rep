@@ -1,0 +1,63 @@
+# Name: Vladyslav Sharapov
+# Login: c00325055
+# Date: 19/11/25
+# Approximate time taken: 20 min
+# ---------------------------------------------------------------------------
+# Program: Labsheet 9 - Q4: Generate 10 random even numbers between 10 and 50
+# ---------------------------------------------------------------------------
+# Known Bugs: None
+# ---------------------------------------------------------------------------
+# Test data 1: 22, 14, 36, 48, 10, 28, 40, 12, 30, 50   sum = 290
+# Test data 2: 18, 20, 32, 14, 26, 44, 38, 12, 16, 50   sum = 270
+# ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+INTEGER generateRandomEven()
+
+MAIN FUNCTION
+
+    // SET VARIABLES
+    INTEGER sum = 0
+
+    // CALL FUNCTION
+    sum = generateRandomEven()
+
+    // DISPLAY RESULT
+    DISPLAY MESSAGE "The sum of the even random numbers is: " + sum
+
+END MAIN FUNCTION
+
+
+// FUNCTION: generateRandomEven
+INTEGER generateRandomEven()
+
+    // SET VARIABLES
+    INTEGER sum = 0
+
+    // SEED RANDOM GENERATOR
+    INITIALIZE random generator using current time
+
+    // LOOP TO GENERATE 10 EVEN NUMBERS
+    FOR (INTEGER i = 1; i <= 10; i++)
+
+        // GENERATE RANDOM NUMBER BETWEEN 10 AND 50
+        INTEGER randomNum = RANDOM number from 10 to 50
+
+        // CHECK IF EVEN
+        IF (randomNum MOD 2 == 0) THEN
+            DISPLAY MESSAGE "Random even number " + i + ": " + randomNum
+            sum = sum + randomNum
+        ELSE
+            // NOT EVEN → REPEAT SAME POSITION
+            i = i - 1
+        END IF
+
+    END FOR
+
+    RETURN sum
+
+END FUNCTION
+
+END

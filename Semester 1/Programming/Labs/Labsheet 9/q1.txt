@@ -1,0 +1,48 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q1: Display numbers from 1 to 15 and return their sum
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data: 120
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+INTEGER displayNumbers()
+
+MAIN FUNCTION
+
+    // SET VARIABLES
+    INTEGER sum = 0
+
+    // CALL FUNCTION AND STORE RESULT
+    sum = displayNumbers()
+
+    // DISPLAY RESULT
+    DISPLAY MESSAGE "The sum of numbers from 1 to 15 is: " + sum
+
+END MAIN FUNCTION
+
+
+// FUNCTION: displayNumbers
+INTEGER displayNumbers()
+
+    // SET VARIABLES
+    INTEGER sum = 0
+
+    // LOOP FROM 1 TO 15
+    FOR (INTEGER i = 1; i <= 15; i++)
+        DISPLAY MESSAGE i
+        sum = sum + i
+    END FOR
+
+    RETURN sum
+
+END FUNCTION
+
+END

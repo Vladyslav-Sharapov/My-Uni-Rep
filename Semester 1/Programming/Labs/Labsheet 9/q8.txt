@@ -1,0 +1,80 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q8: Range Sum
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data 1: Input: Start=3, End=7  → Sum=25
+// Test Data 2: Input: Start=1, End=5  → Sum=15
+// Test Data 3: Input: Start=-2, End=4 → Invalid input message
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+INTEGER addNumbers(INTEGER start, INTEGER end)
+
+MAIN FUNCTION
+
+    // SET VARIABLES
+    INTEGER startNum
+    INTEGER endNum
+    BOOLEAN validInput = false
+
+    // LOOP UNTIL VALID INPUT RECEIVED
+    WHILE (validInput == false)
+
+        DISPLAY MESSAGE "Enter the start number: "
+        INPUT startNum
+
+        DISPLAY MESSAGE "Enter the end number: "
+        INPUT endNum
+
+        // VALIDATE INPUT
+        IF (startNum < endNum AND startNum > 0) THEN
+
+            validInput = true
+
+            // CALL FUNCTION
+            INTEGER sum = addNumbers(startNum, endNum)
+
+            // DISPLAY RESULT
+            DISPLAY MESSAGE "The sum of numbers from " + startNum +
+                            " to " + endNum + " is: " + sum
+
+        ELSE
+
+            DISPLAY MESSAGE "Invalid input. Please ensure the start number is less than the end number and both are positive."
+            validInput = false
+
+        END IF
+
+    END WHILE
+
+END MAIN FUNCTION
+
+
+// FUNCTION: addNumbers
+INTEGER addNumbers(INTEGER start, INTEGER end)
+
+    // SET VARIABLES
+    INTEGER sum = 0
+
+    DISPLAY MESSAGE "Start number: " + start
+
+    // LOOP THROUGH RANGE
+    FOR (INTEGER i = start; i <= end; i++)
+        DISPLAY MESSAGE "Adding: " + i
+        sum = sum + i
+    END FOR
+
+    DISPLAY MESSAGE "End number: " + end
+
+    RETURN sum
+
+END FUNCTION
+
+END

@@ -1,0 +1,50 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q6: Multiplication Table
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data 1: Input: 5  → Output: 5x1=5 ... 5x10=50
+// Test Data 2: Input: 12 → Output: 12x1=12 ... 12x10=120
+// Test Data 3: Input: -3 → Output: Invalid input message
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID displayTimeTable(INTEGER num)
+
+MAIN FUNCTION
+
+    // SET VARIABLES
+    INTEGER number
+
+    DISPLAY MESSAGE "Enter a number to display its multiplication table: "
+    INPUT number
+
+    // VALIDATE INPUT
+    IF (number < 1 OR number > 12) THEN
+        DISPLAY MESSAGE "Invalid input. Please enter a positive integer."
+    ELSE
+        displayTimeTable(number)
+    END IF
+
+END MAIN FUNCTION
+
+
+// FUNCTION: displayTimeTable
+VOID displayTimeTable(INTEGER num)
+
+    DISPLAY MESSAGE "Multiplication table for " + num + ":"
+
+    // LOOP 1 TO 10
+    FOR (INTEGER i = 1; i <= 10; i++)
+        DISPLAY MESSAGE num + " x " + i + " = " + (num * i)
+    END FOR
+
+END FUNCTION
+
+END

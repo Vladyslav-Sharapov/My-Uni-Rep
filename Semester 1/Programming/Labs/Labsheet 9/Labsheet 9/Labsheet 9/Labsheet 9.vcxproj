@@ -128,6 +128,11 @@
     <ClCompile Include="q11.cpp" />
     <ClCompile Include="q12.cpp" />
     <ClCompile Include="q13.cpp" />
+    <ClCompile Include="q14.cpp" />
+    <ClCompile Include="q15.cpp" />
+    <ClCompile Include="q16.cpp" />
+    <ClCompile Include="q17.cpp" />
+    <ClCompile Include="q18.cpp" />
     <ClCompile Include="q2.cpp" />
     <ClCompile Include="q3.cpp" />
     <ClCompile Include="q4.cpp" />

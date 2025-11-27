@@ -15,7 +15,7 @@
 
 void sumTotal();
 
-static int main9()
+int main9()
 {
 	sumTotal();
 
