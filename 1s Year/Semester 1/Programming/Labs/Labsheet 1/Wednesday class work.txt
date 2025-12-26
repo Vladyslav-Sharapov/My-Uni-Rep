@@ -1,0 +1,106 @@
+// Vladyslav Sharapov
+// 10/09/2025
+// area of rectangle
+
+//declare variables
+
+width = 0;
+height = 0;
+area =0;
+
+//get data
+
+display message "What's the height";
+input heigh;
+
+display message "What the widht";
+input widht;
+
+//do maths
+
+area = height * widht;
+
+//show answer
+display message "the area is" + area;
+
+
+
+
+
+//declare variables
+
+radius = 0; 
+Pi = 3.14159;
+area =0;
+
+//get data
+
+display message "What's the radius";
+input radius;
+
+//do maths
+
+area = radius * radius * Pi;
+
+//show answer
+display message "the area is" + area;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+int main()
+{
+	float a = 0.0f;
+	float b = 3.14;
+	float c = 0.0f;
+	
+	std::cout << "Radius: " << std::endl;
+	std::cin >> a;
+	
+	c = a * b
+	
+	std::cout << c;
+	
+	retun 0;
+	
+}
+	

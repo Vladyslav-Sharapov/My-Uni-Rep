@@ -1,0 +1,64 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 26/11/25
+// Approximate time taken: 10 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q16: Add Numbers in a Range
+// ---------------------------------------------------------------------------
+// Known Bugs: line 46 had (int total = total;) instead of (total += t_startNum;)
+// ---------------------------------------------------------------------------
+// Test data 1: Start number: 3, End number: 6 -> The numbers are: 3 4 5 6, The sum is 18
+// Test data 2: Start number: 1, End number: 1 -> The numbers are: 1, The sum is 1
+// Test data 3: Start number: 5, End number: 3 -> The numbers are: , The sum is 0
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID addNumbers(INTEGER t_startNum, INTEGER t_endNum)
+
+MAIN FUNCTION
+
+    INTEGER startNum = 0
+    INTEGER endNum = 0
+
+    DISPLAY MESSAGE "Enter the start number: "
+    INPUT startNum
+
+    DISPLAY MESSAGE "Enter the end number: "
+    INPUT endNum
+
+    addNumbers(startNum, endNum)
+
+    NEW LINE
+    PAUSE
+
+    RETURN 0
+
+END MAIN FUNCTION
+
+
+// FUNCTION: addNumbers
+VOID addNumbers(INTEGER t_startNum, INTEGER t_endNum)
+
+    INTEGER total = 0
+
+    DISPLAY MESSAGE "The numbers are : "
+
+    // DISPLAY NUMBERS IN RANGE AND SUM THEM
+    WHILE (t_startNum <= t_endNum)
+
+        DISPLAY MESSAGE " " + t_startNum
+
+        total = total + t_startNum
+
+        t_startNum = t_startNum + 1
+
+    END WHILE
+
+    NEW LINE
+    DISPLAY MESSAGE "The sum is " + total
+
+END FUNCTION
+
+END

@@ -1,0 +1,22 @@
+// 29/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 4: Leg counting problem
+
+START
+
+total_animals = 0;
+total_legs = 0;
+
+Display message "Enter the total number of animals"
+input total_animals;
+Display message "Enter the total number of legs"
+input total_legs;
+
+chikens = (4 * total_animals - total_legs) / 2;
+sheeps = total_animals - chikens;
+
+Display message "Total amount of chikens: " + chikens
+Display message "Total amount of sheeps: " + sheeps
+
+END

@@ -1,0 +1,82 @@
+// 22/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 4: Meal Deal Order
+
+START;
+
+meal_deal = 15;
+extra_chips = 2.50;
+extra_s_drink = 3;
+cost = 0;
+
+ans = "";
+Display message "Do you want to order Meal Deal?";
+input ans;
+
+if(ans = "no" || ans = "NO") //1st check 
+	Display message "Have a nice day!"
+
+else if (ans = "yes" || ans = "YES")
+	cost = meal_deal;
+		
+else 
+	Display message "Error";
+	return;
+	
+ans = "";
+Display message "Do you want extra chips?";
+input ans;
+	
+if (ans = "no" || ans = "NO") //2nd check 
+	Display message "Total cost is: " + cost;
+		
+else if (ans = "yes" || ans = "YES")
+	cost = cost + extra_chips;
+		
+else 
+	Display message "Error";
+	return;
+	
+Display message "Do you want extra sized drink?";
+input ans;
+		
+if (ans = "no" || ans = "NO") //3rd check 
+	Display message "Total cost is: " + cost
+			
+else if (ans = "yes" || ans = "YES")
+	cost = cost + extra_s_drink;
+	
+else 
+	Display message "Error";
+	return;
+	
+Display message "Do you want extra sized drink?";
+input ans;
+			
+if (ans = "no" || ans = "NO") //4th check 
+	Display message "Total cost is: " + cost
+			
+else if (ans = "yes" || ans = "YES")
+	cost = meal_deal + extra_chips + extra_s_drink;
+	Display message "Total cost is: " + cost;
+	
+else 
+	Display message "Error";
+	return;
+
+num_of_meals = 0;
+
+Display message "How many orders do you want to make?: )
+input num_of_meals;
+
+if (num_of_meals >= 1 || num_of_meals <= 20) //last check of numbers of meals
+	cost = cost * num_of_meals;
+	Display message "Total cost is: " + cost
+	Display message "Have a nice day!"
+	
+else 
+	Display message "Error";
+	return;
+
+END;

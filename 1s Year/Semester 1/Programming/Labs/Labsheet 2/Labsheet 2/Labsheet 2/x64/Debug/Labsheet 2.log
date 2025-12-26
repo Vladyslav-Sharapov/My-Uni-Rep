@@ -1,0 +1,10 @@
+﻿  Problem 1 Hard disk sizes.cpp
+C:\Users\vladi\Downloads\Labsheet 2\Labsheet 2\Problem 1 Hard disk sizes.cpp(23,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Problem 2 The Ratio Problem.cpp
+  Problem 3 Meal Deal Order.cpp
+C:\Users\vladi\Downloads\Labsheet 2\Labsheet 2\Problem 3 Meal Deal Order.cpp(30,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Problem 4 Ordering Felt.cpp
+C:\Users\vladi\Downloads\Labsheet 2\Labsheet 2\Problem 4 Ordering Felt.cpp(36,20): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Problem 5 Elevator.cpp
+  Generating Code...
+  Labsheet 2.vcxproj -> C:\Users\vladi\Downloads\Labsheet 2\x64\Debug\Labsheet 2.exe

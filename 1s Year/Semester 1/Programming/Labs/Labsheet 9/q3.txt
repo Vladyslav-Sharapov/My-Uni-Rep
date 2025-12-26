@@ -1,0 +1,45 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q3: Generate and display 10 random numbers between 1 and 40
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data: N/A
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID generateRandom()
+
+MAIN FUNCTION
+
+    // CALL FUNCTION
+    generateRandom()
+
+END MAIN FUNCTION
+
+
+// FUNCTION: generateRandom
+VOID generateRandom()
+
+    // SEED RANDOM GENERATOR
+    INITIALIZE random generator using current time
+
+    // LOOP TO GENERATE 10 NUMBERS
+    FOR (INTEGER i = 1; i <= 10; i++)
+    
+        // GENERATE RANDOM NUMBER BETWEEN 1 AND 40
+        INTEGER randomNum = RANDOM number from 1 to 40
+
+        // DISPLAY NUMBER
+        DISPLAY MESSAGE "Random number " + i + ": " + randomNum
+
+    END FOR
+
+END FUNCTION
+
+END

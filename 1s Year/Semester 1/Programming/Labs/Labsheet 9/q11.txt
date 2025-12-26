@@ -1,0 +1,77 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 24/11/25
+// Approximate time taken: 15 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q11: Displaying Digits in Reverse Order
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data 1: 5 numbers: 1, 9, 3, 9, 5 -> First occurrence of 9: 2, Last occurrence of 9: 4
+// Test data 2: 3 numbers: 1, 2, 3 -> First occurrence of 9: 0, Last occurrence of 9: 0
+// Test data 3: 6 numbers: 9, 9, 9, 9, 9, 9 -> First occurrence of 9: 1, Last occurrence of 9: 6
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID reverseDisplay(INTEGER tNum)
+
+MAIN FUNCTION
+
+    INTEGER num = 0
+
+    DISPLAY MESSAGE "Enter a positive integer: "
+    INPUT num
+
+    // INPUT VALIDATION LOOP
+    WHILE (num <= 0)
+        DISPLAY MESSAGE "Invalid input. Please enter a positive integer."
+        DISPLAY MESSAGE "Enter a positive integer: "
+        INPUT num
+    END WHILE
+
+    // CALL FUNCTION
+    reverseDisplay(num)
+
+    PAUSE
+
+END MAIN FUNCTION
+
+
+// FUNCTION: reverseDisplay
+VOID reverseDisplay(INTEGER tNum)
+
+    CONSTANT INTEGER MINUS_NUM = 3
+
+    INTEGER count = 1
+    FLOAT sum = tNum
+    FLOAT average = 0.0
+
+    // LOOP UNTIL NUMBER DROPS BELOW 0
+    WHILE (tNum >= -1)
+
+        DISPLAY MESSAGE tNum + " "
+
+        tNum = tNum - MINUS_NUM
+
+        IF (tNum < 0) THEN
+            NEW LINE
+            BREAK
+        END IF
+
+        sum = sum + tNum
+        count = count + 1
+
+    END WHILE
+
+    // CALCULATE AVERAGE
+    average = sum / count
+
+    // DISPLAY RESULTS
+    DISPLAY MESSAGE "Sum: " + sum
+    DISPLAY MESSAGE "Average: " + average
+
+END FUNCTION
+
+END

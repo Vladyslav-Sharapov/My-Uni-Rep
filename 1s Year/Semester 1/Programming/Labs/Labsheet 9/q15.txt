@@ -1,0 +1,50 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 26/11/25
+// Approximate time taken: 5 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q15: Sum of 10 even random numbers
+// ---------------------------------------------------------------------------
+// Known Bugs: line 30 had 'checkEven = 0' instead of 'checkEven == 0'
+// ---------------------------------------------------------------------------
+
+START
+
+MAIN FUNCTION
+
+    // SET VARIABLES
+    INTEGER step = 1
+    INTEGER checkEven = 0
+    INTEGER sum = 0
+
+    SEED random generator using current time
+
+    // LOOP UNTIL 10 EVEN NUMBERS ARE FOUND
+    WHILE (step <= 10)
+
+        INTEGER numberGuess = RANDOM number from 1 to 100
+
+        checkEven = numberGuess MOD 2   // Check if even
+
+        IF (checkEven == 0) THEN
+
+            DISPLAY MESSAGE numberGuess
+
+            sum = sum + numberGuess
+
+            step = step + 1
+
+        END IF
+
+    END WHILE
+
+    DISPLAY NEW LINE
+    DISPLAY MESSAGE "The sum of even numbers is " + sum
+
+    PAUSE
+
+    RETURN 0
+
+END MAIN FUNCTION
+
+END

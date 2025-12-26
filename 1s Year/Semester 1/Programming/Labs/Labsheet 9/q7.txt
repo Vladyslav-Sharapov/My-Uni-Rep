@@ -1,0 +1,91 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q7: Number Analysis
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data 1: // Input: 3, 7, 10, 15 // Expected Output: Sum: 32, Largest: 15, Smallest: 7, Average: 10
+// Test Data 2: // Input: 5, 5, 6, 14, 15, 12 // Expected Output: Sum: 52, Largest: 15, Smallest: 5, Average: 10
+// ---------------------------------------------------------------------------
+
+START
+
+//FUNCTION PROTOTYPE
+FLOAT calculationsNum(INTEGER t_count);
+
+MAIN FUNCTION
+	
+	// SET VARIABLES
+	INTEGER count = 0;
+	BOOL validUnput = false;
+	
+	// LOOP WHILE
+	WHILE (!validUnput) // validUnput = false
+		DISPLAY MESSAGE "Enter how many numbers you want: ";
+		INPUT count;
+		
+		IF (count <= 0) THEN
+			DISPLAY ERROR MESSAGE;
+			validUnput = false;
+		ELSE
+			validUnput = truel
+		END IF
+	END WHILE
+	
+	//DIPLAY RESULT
+	INTEGER average = calculationsNum(count);
+	DISPLAY MESSAGE "Average of the numbers: " + average
+
+END MAIN FUNC
+
+FLOAT calculationsNum(INTEGER t_count)
+	// SET VARIABLES
+	INTEGER num = 0;
+	INTEGER largest = 0;
+	INTEGER smallest = 0;
+	
+	FLOAT sumAll = 0;
+	FLOAT average = 0;
+	
+	// LOOP FOR
+	FOR (INEGER i = 1; i <= t_count;)
+		DISPLAY MESSAGE "Enter number" + i + ": "
+		INPUT num;
+		
+		IF (num < 5 OR num > 15) THEN
+			DISPLAY ERROR "Number out of range (5-15). Please re-enter"
+			CONTINUE; // Prompt for re-entry  without incrementing incrementing
+		END IF
+		
+		sumAll += num // OR sumAll = sumAll + num;
+		IF (i equals 1) THEN
+			largest = num;
+			smallest = num;
+		ELSE
+			IF (num > largest) THEN
+				largest = num; // Update largest
+			END IF
+			
+			IF (num < smallest) THEN
+				smallest = num;
+			END IF
+		END IF
+		
+		i++ // i + 1
+	END FOR
+	
+	average = sumAll / t_count;
+	
+	//DIPLAY RESULTS
+	NEW LINE
+	DISPLAY MESSAGE "Total sum of all numbers: " + sumAll
+	DISPLAY MESSAGE "Largest number: " + largest
+	DISPLAY MESSAGE "Smallest number: " + smallest
+	
+	RETUNR average;
+	
+	END FUNC
+END

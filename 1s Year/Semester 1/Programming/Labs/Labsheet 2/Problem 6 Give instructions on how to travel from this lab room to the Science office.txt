@@ -1,0 +1,4 @@
+// 22/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 6: Give instructions on how to travel from this lab room to the Science office

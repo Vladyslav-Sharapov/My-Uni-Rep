@@ -1,0 +1,97 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 24/11/25
+// Approximate time taken: 15 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q12: Counting Occurrences of Highest and Lowest Numbers
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data 1: // Input: 5, Numbers: 3, 7, 2, 7, 1 // Expected Output: Lowest: 1 (1 time), Highest: 7 (2 times)
+// Test Data 2: // Input: 4, Numbers: 5, 5, 5, 5 // Expected Output: Lowest: 5 (4 times), Highest: 5 (4 times)
+// Test Data 3: // Input: 6, Numbers: 1, 2, 3, 4, 5, 6 // Expected Output: Lowest: 1 (1 time), Highest: 6 (1 time)
+// Test Data 4: // Input: 3, Numbers: 10, 9, 8 // Expected Output: Lowest: 8 (1 time), Highest: 10 (1 time)
+// Test Data 5: // Input: 7, Numbers: 2, 4, 6, 4, 2, 6, 4 // Expected Output: Lowest: 2 (2 times), Highest: 6 (2 times)
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID countOccurences()
+
+MAIN FUNCTION
+
+    countOccurences()
+
+    PAUSE
+
+END MAIN FUNCTION
+
+
+// FUNCTION: countOccurences
+VOID countOccurences()
+
+    // SET VARIABLES
+    INTEGER num = 0
+    INTEGER numInputs = 0
+    INTEGER highestNum = 0
+    INTEGER lowestNum = 0
+    INTEGER countLowestNum = 0
+    INTEGER countHighestNum = 0
+
+    DISPLAY MESSAGE "How many numbers do you wish to enter?"
+    INPUT numInputs
+
+    // LOOP THROUGH ALL USER INPUTS
+    FOR (INTEGER i = 1; i <= numInputs; i++)
+
+        DISPLAY MESSAGE "Enter a number (1–10)"
+        DISPLAY MESSAGE "Number " + i + ": "
+        INPUT num
+
+        // INPUT VALIDATION LOOP
+        WHILE (num < 1 OR num > 10)
+            DISPLAY MESSAGE "Invalid input. Please enter a number between 1 and 10."
+            DISPLAY MESSAGE "Number " + i + ": "
+            INPUT num
+        END WHILE
+
+        // FIRST NUMBER → INITIALIZE BOTH LOWEST AND HIGHEST
+        IF (i == 1) THEN
+            highestNum = num
+            lowestNum = num
+            countHighestNum = 1
+            countLowestNum = 1
+
+        ELSE
+
+            // CHECK HIGHEST
+            IF (num > highestNum) THEN
+                highestNum = num
+                countHighestNum = 1
+            ELSE IF (num == highestNum) THEN
+                countHighestNum = countHighestNum + 1
+            END IF
+
+            // CHECK LOWEST
+            IF (num < lowestNum) THEN
+                lowestNum = num
+                countLowestNum = 1
+            ELSE IF (num == lowestNum) THEN
+                countLowestNum = countLowestNum + 1
+            END IF
+
+        END IF
+
+    END FOR
+
+    // DISPLAY RESULTS
+    DISPLAY MESSAGE "# Final lowest number entered: " + lowestNum
+    DISPLAY MESSAGE "# Lowest number was entered: " + countLowestNum + " time(s)"
+    DISPLAY MESSAGE "# Final highest number entered: " + highestNum
+    DISPLAY MESSAGE "# Highest number was entered: " + countHighestNum + " time(s)"
+    DISPLAY MESSAGE "#########################################"
+
+END FUNCTION
+
+END

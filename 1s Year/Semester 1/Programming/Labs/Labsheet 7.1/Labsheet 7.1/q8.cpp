@@ -1,0 +1,48 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 22/10/25
+// Approximate time taken: 15 min
+//----------------------------------------------------------------------------
+// Program: Labsheet 7.1: Q8 Area of Rectangle
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+//----------------------------------------------------------------------------
+// Test data 1: 5 3 should be 15
+// Test data 2: -4 2 should be Error
+// Test data 3: 0 7 should be Error
+// Test data 4: 6 4 should be 24
+// Test data 5: 10 2.5 should be 25
+//----------------------------------------------------------------------------
+
+#include <iostream>
+
+void calAreaRectangle(float t_length, float t_width); // Function prototype
+
+int main8()
+{
+	float length = 0.0f; // Variable to hold length
+	float width = 0.0f; // Variable to hold width
+
+	std::cout << "Enter length: ";
+	std::cin >> length;
+	std::cout << "Enter width: ";
+	std::cin >> width;
+
+	if (length <= 0 || width <= 0) // Error if any number is less or equal to 0
+	{
+		std::cout << "Error, number cannot be less or equal to 0\n";
+	}
+	else
+	{
+		calAreaRectangle(length, width); // Call function
+	}
+
+	system("pause");
+	return 0;
+}
+
+void calAreaRectangle(float t_length, float t_width) // Function to calculate area of rectangle
+{
+	float area = t_length * t_width; // Calculate area
+	std::cout << "Area of rectangle: " << area << std::endl;
+}

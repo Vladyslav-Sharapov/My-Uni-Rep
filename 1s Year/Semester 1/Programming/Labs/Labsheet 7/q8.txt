@@ -1,0 +1,28 @@
+// 15/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q8
+
+START
+
+//Variables
+length = 0;
+width = 0;
+area = 0;
+
+//Display & Input
+display message "Area of Rectangle";
+
+display message "Enter length of the rectangle: ";
+input length
+
+display message "Enter width of the rectangle: ";
+input width;
+
+//If, Else
+if(length <= 0 || width <= 0)
+	display message "Error. Number cannot be less or equal to zero";
+else
+	area = width * length;
+	display message "Rectangle area: " + area;
+
+END

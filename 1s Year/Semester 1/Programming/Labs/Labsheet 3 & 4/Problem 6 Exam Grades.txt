@@ -1,0 +1,21 @@
+// 29/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 6: Exam Grades
+
+START
+user_grade = 0;
+
+Display message "Please enter your grade"
+if (user_grade < 40)
+	Display message "You successfully fail the exam";
+else if (user grade >= 40 || user_grade < 55)
+	Display message "You got Pass on the exam";
+else if (user grade >= 55 || user_grade < 70)
+	Display message "You got Merit ont the exam";
+else if (user grade >= 70 || user_grade < 100)
+	Display message "You got Distiction ont the exam";
+else 
+	Display message "Appropriate error message";
+	
+END

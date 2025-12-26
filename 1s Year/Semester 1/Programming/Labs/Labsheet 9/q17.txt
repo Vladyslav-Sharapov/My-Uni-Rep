@@ -1,0 +1,87 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 26/11/25
+// Approximate time taken: 10 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q17: Program Fixing
+// ---------------------------------------------------------------------------
+// Known Bugs: Lowest number was not showing — fixed by initializing inside case 1
+// ---------------------------------------------------------------------------
+// Test data 1: quantityNum: 5, numbers: 3, 7, 1, 10, 5 -> lowest: 1, highest: 10, sum: 26, average: 5.2
+// Test data 2: quantityNum: 3, numbers: 6, 2, 9 -> lowest: 2, highest: 9, sum: 17, average: 5.66667
+// Test data 3: quantityNum: 4, numbers: 1, 1, 1, 1 -> lowest: 1, highest: 1, sum: 4, average: 1
+// ---------------------------------------------------------------------------
+
+START
+
+MAIN FUNCTION
+
+    INTEGER count = 1
+    INTEGER numberGuess = -1
+    INTEGER quantityNum = 0
+    
+    DOUBLE sum = 0
+    DOUBLE average = 0
+    
+    INTEGER lowestNum = 0
+    INTEGER highestNum = 0
+
+    DISPLAY MESSAGE "Enter the number of numbers you want: "
+    INPUT quantityNum
+
+    // LOOP THROUGH USER INPUTS
+    WHILE (count <= quantityNum)
+
+        DISPLAY MESSAGE "Please enter a number (1-10): "
+        INPUT numberGuess
+
+        // VALID RANGE (note: in the C++ code the OR made validation flawed)
+        IF (numberGuess >= 1 AND numberGuess <= 10) THEN
+
+            SWITCH(count)
+
+                CASE 1:
+                    // First iteration initializes all values
+                    lowestNum = numberGuess
+                    highestNum = numberGuess
+                    sum = sum + numberGuess
+                    BREAK
+
+                DEFAULT:
+                    // Update lowest
+                    IF (numberGuess < lowestNum) THEN
+                        lowestNum = numberGuess
+                    END IF
+
+                    // Update highest
+                    IF (numberGuess > highestNum) THEN
+                        highestNum = numberGuess
+                    END IF
+
+                    sum = sum + numberGuess
+                    BREAK
+
+            END SWITCH
+
+        END IF
+
+        count = count + 1
+
+    END WHILE
+
+    // CALCULATE AVERAGE
+    average = sum / quantityNum
+
+    // DISPLAY RESULTS
+    DISPLAY MESSAGE "The lowest of the numbers is " + lowestNum
+    DISPLAY MESSAGE "The highest of the numbers is " + highestNum
+    DISPLAY MESSAGE "The sum of the numbers is " + sum
+    DISPLAY MESSAGE "The average of the numbers is " + average
+
+    PAUSE
+
+    RETURN 0
+
+END MAIN FUNCTION
+
+END

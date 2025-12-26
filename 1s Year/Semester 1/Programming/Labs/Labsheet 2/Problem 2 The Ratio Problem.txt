@@ -1,0 +1,46 @@
+// 22/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 2: The Ratio Problem
+
+// Start
+
+// declare variables;
+user = 0;
+
+nick = 0;
+nick_ratio = 0;
+
+alf = 0;
+alf_ratio = 0;
+
+total_ratio = 0;
+
+// show text & put infromation into variables
+display message "Please enter your disk size in GB: "
+input = user;
+
+display message "Please enter ratio of Nick's disk size: "
+input = nick_ratio;
+
+display message "Please enter ratio of Alf's disk size: "
+input = alf_ratio;
+
+// calculate the total ratio
+total_ratio = nick_ratio + alf_ratio
+
+// calculate;
+nick = (nick_ratio / total_ratio) * user
+alf = (alf_ratio / total_ratio) * user
+
+// display answer;
+display text "Your disk size is: " + user;
+display text "Nick's disk size is: " + nick;
+display text "Alf's disk size is: " + alf;
+
+
+// Problems:
+I had problem about how to calculate the ratio
+
+// How I solve the problem
+I just google it

@@ -1,0 +1,55 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 24/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q14: Fibonacci Series
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data:
+// 1 1 2 3 5 8 13 21 34 55
+// 89 144 233 377 610 987 1597 2584 4181 6765
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID fibonacciSeries()
+
+MAIN FUNCTION
+
+    // CALL FUNCTION
+    fibonacciSeries()
+
+    PAUSE
+
+END MAIN FUNCTION
+
+
+// FUNCTION: fibonacciSeries
+VOID fibonacciSeries()
+
+    // LOOP FOR FIRST 20 TERMS
+    FOR (INTEGER i = 1; i <= 20; i++)
+
+        INTEGER one = 1        // First Fibonacci number
+        INTEGER num = 0        // Second Fibonacci number
+        INTEGER next = 0       // Next Fibonacci number
+
+        // NESTED LOOP TO CALCULATE FIBONACCI NUMBER AT POSITION i
+        FOR (INTEGER j = 1; j <= i; j++)
+
+            next = one + num   // Calculate next number
+            num = one          // Shift numbers forward
+            one = next
+
+        END FOR
+
+        DISPLAY MESSAGE "Fibonacci number " + i + ": " + num
+
+    END FOR
+
+END FUNCTION
+
+END

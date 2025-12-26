@@ -1,0 +1,147 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 26/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q18: Vessel Calculations
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data: Tested with various heights and radius values
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPES
+VOID menu(FLOAT t_height, FLOAT t_radius)
+VOID volumeSphere(FLOAT radius)
+VOID surfaceAreaSphere(FLOAT radius)
+VOID volumeCylinder(FLOAT height, FLOAT radius)
+VOID surfaceAreaCylinder(FLOAT height, FLOAT radius)
+
+// CONSTANT
+CONSTANT FLOAT PI = 3.14159
+
+
+MAIN FUNCTION
+
+    FLOAT height = 0.0
+    FLOAT radius = 0.0
+
+    // MAIN LOOP
+    WHILE (TRUE)
+
+        CLEAR SCREEN
+
+        DISPLAY MESSAGE "To exit, enter a negative value for height and radius."
+        DISPLAY MESSAGE "-----------------------------------------------"
+
+        DISPLAY MESSAGE "Enter height of the vessel: "
+        INPUT height
+
+        DISPLAY MESSAGE "Enter radius of the vessel: "
+        INPUT radius
+
+        // EXIT CONDITION
+        IF (height < 0 AND radius < 0) THEN
+            DISPLAY MESSAGE "Exiting program..."
+            BREAK
+        END IF
+
+        // CALL MENU
+        menu(height, radius)
+
+        PAUSE
+
+    END WHILE
+
+    RETURN 0
+
+END MAIN FUNCTION
+
+
+// FUNCTION: menu
+VOID menu(FLOAT t_height, FLOAT t_radius)
+
+    INTEGER choice = 0
+
+    DISPLAY MESSAGE "What are you going to calculate?"
+    DISPLAY MESSAGE "-----------------------------------------------"
+    DISPLAY MESSAGE "1. The volume of a sphere"
+    DISPLAY MESSAGE "2. The surface area of a sphere"
+    DISPLAY MESSAGE "3. The volume of a cylinder"
+    DISPLAY MESSAGE "4. The surface area of a cylinder"
+    DISPLAY MESSAGE "-----------------------------------------------"
+    DISPLAY MESSAGE "Enter your choice (1–4): "
+    INPUT choice
+    DISPLAY MESSAGE "-----------------------------------------------"
+
+    SWITCH (choice)
+
+        CASE 1:
+            volumeSphere(t_radius)
+            BREAK
+
+        CASE 2:
+            surfaceAreaSphere(t_radius)
+            BREAK
+
+        CASE 3:
+            volumeCylinder(t_height, t_radius)
+            BREAK
+
+        CASE 4:
+            surfaceAreaCylinder(t_height, t_radius)
+            BREAK
+
+        DEFAULT:
+            DISPLAY MESSAGE "Invalid choice."
+            BREAK
+
+    END SWITCH
+
+    DISPLAY MESSAGE "-----------------------------------------------"
+
+END FUNCTION
+
+
+// FUNCTION: volumeSphere
+VOID volumeSphere(FLOAT radius)
+
+    FLOAT volume = (4 / 3) * PI * radius * radius * radius
+
+    DISPLAY MESSAGE "# The volume of the sphere is: " + volume
+
+END FUNCTION
+
+
+// FUNCTION: surfaceAreaSphere
+VOID surfaceAreaSphere(FLOAT radius)
+
+    FLOAT surfaceArea = 4 * PI * radius * radius
+
+    DISPLAY MESSAGE "# The surface area of the sphere is: " + surfaceArea
+
+END FUNCTION
+
+
+// FUNCTION: volumeCylinder
+VOID volumeCylinder(FLOAT height, FLOAT radius)
+
+    FLOAT volume = PI * radius * radius * radius
+
+    DISPLAY MESSAGE "# The volume of the cylinder is: " + volume
+
+END FUNCTION
+
+
+// FUNCTION: surfaceAreaCylinder
+VOID surfaceAreaCylinder(FLOAT height, FLOAT radius)
+
+    FLOAT surfaceArea = 2 * PI * radius * (radius + height)
+
+    DISPLAY MESSAGE "# The surface area of the cylinder is: " + surfaceArea
+
+END FUNCTION
+
+END

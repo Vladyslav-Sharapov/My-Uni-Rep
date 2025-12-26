@@ -1,0 +1,33 @@
+// 29/9/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 3: Income Tax
+
+START
+
+//Variables
+gross_income = 0.00f;
+tax = 0.00f;
+taxable_income = 0.00f;
+net_pay = 0.00f
+
+//Text and input
+display message "Income Tax";
+display message "Please enter your income: ";
+input gross_income;
+
+//if else
+if (gross_income <= 1200)
+	tax = 0;
+else
+	taxable_income = gross_income - 12000;
+	tax = taxable_income * 0.22;
+	
+net_pay = gross_income - tax;
+
+//result
+display message "Income: " + gross_income;
+display message "Tax due: " + tax;
+display message "Net pay: " + net_pay;
+
+END

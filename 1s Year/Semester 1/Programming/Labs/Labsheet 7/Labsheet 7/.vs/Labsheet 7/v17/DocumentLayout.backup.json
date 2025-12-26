@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31F00DC1-C735-40BB-B8C8-DBA5964DDE55}|Labsheet 7\\Labsheet 7.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31F00DC1-C735-40BB-B8C8-DBA5964DDE55}|Labsheet 7\\Labsheet 7.vcxproj|solutionrelative:Labsheet 7\\Q14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F00DC1-C735-40BB-B8C8-DBA5964DDE55}|Labsheet 7\\Labsheet 7.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31F00DC1-C735-40BB-B8C8-DBA5964DDE55}|Labsheet 7\\Labsheet 7.vcxproj|solutionrelative:Labsheet 7\\Q13.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31F00DC1-C735-40BB-B8C8-DBA5964DDE55}|Labsheet 7\\Labsheet 7.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31F00DC1-C735-40BB-B8C8-DBA5964DDE55}|Labsheet 7\\Labsheet 7.vcxproj|solutionrelative:Labsheet 7\\Q12.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Q14.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q14.cpp",
+              "RelativeDocumentMoniker": "Labsheet 7\\Q14.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q14.cpp",
+              "RelativeToolTip": "Labsheet 7\\Q14.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T11:41:09.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q13.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q13.cpp",
+              "RelativeDocumentMoniker": "Labsheet 7\\Q13.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q13.cpp",
+              "RelativeToolTip": "Labsheet 7\\Q13.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-15T11:40:55.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q12.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q12.cpp",
+              "RelativeDocumentMoniker": "Labsheet 7\\Q12.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 7\\Labsheet 7\\Labsheet 7\\Q12.cpp",
+              "RelativeToolTip": "Labsheet 7\\Q12.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-13T08:37:38.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

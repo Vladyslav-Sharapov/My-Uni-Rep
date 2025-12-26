@@ -1,0 +1,60 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q9: Sum of User-Entered Numbers within a Range
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data 1: 7, 10, 4, 12, 0 // Expected Output 1: 29
+// Test Data 2: 5, 6, 13, 9, 0 // Expected Output 2: 20
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID sumTotal()
+
+MAIN FUNCTION
+
+    // CALL FUNCTION
+    sumTotal()
+
+END MAIN FUNCTION
+
+
+// FUNCTION: sumTotal
+VOID sumTotal()
+
+    // SET VARIABLES
+    INTEGER num
+    INTEGER sum = 0
+
+    DISPLAY MESSAGE "Enter numbers to sum (enter 0 to stop):"
+
+    // INFINITE LOOP
+    WHILE (TRUE)
+
+        DISPLAY MESSAGE "Enter number: "
+        INPUT num
+
+        // CHECK EXIT CONDITION
+        IF (num == 0) THEN
+            BREAK
+        END IF
+
+        // VALIDATION
+        IF (num < 5 OR num > 12) THEN
+            DISPLAY MESSAGE "Invalid input. Please enter a number between 5 and 12."
+        ELSE
+            sum = sum + num
+        END IF
+
+    END WHILE
+
+    DISPLAY MESSAGE "Total sum of entered numbers: " + sum
+
+END FUNCTION
+
+END

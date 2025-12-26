@@ -1,0 +1,23 @@
+// Vladyslav Sharapov
+// Introduction In Programming
+// 15/09/25
+
+// declare variables
+
+radius = 0; 
+Pi = 3.14159;
+area =0;
+
+// show text
+
+Labsheet 1 Part 1:
+
+// get data
+
+display message "Please put the radius of the circle";
+input radius;
+
+// do maths
+
+area = radius * radius * Pi;
+

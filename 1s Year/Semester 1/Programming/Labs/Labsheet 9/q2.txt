@@ -1,0 +1,51 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q2: Display numbers from 30 to 20 in reverse order,
+//          calculate sum and average
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data: 25, 275
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID reverseDisplayNums()
+
+MAIN FUNCTION
+
+    // CALL FUNCTION
+    reverseDisplayNums()
+
+END MAIN FUNCTION
+
+
+// FUNCTION: reverseDisplayNums
+VOID reverseDisplayNums()
+
+    // SET VARIABLES
+    INTEGER sum = 0
+    INTEGER count = 0
+    INTEGER average = 0
+
+    // LOOP FROM 30 DOWN TO 20
+    FOR (INTEGER i = 30; i >= 20; i--)
+        DISPLAY MESSAGE i
+        sum = sum + i
+        count = count + 1
+    END FOR
+
+    // CALCULATE AVERAGE
+    average = sum / count
+
+    // DISPLAY RESULTS
+    DISPLAY MESSAGE "The average of numbers from 20 to 30 is: " + average
+    DISPLAY MESSAGE "The sum of numbers from 20 to 30 is: " + sum
+
+END FUNCTION
+
+END

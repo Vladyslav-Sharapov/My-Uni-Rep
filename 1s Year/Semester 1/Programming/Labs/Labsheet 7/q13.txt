@@ -1,0 +1,51 @@
+// 15/10/25
+// Vladyslav Sharapov 
+// Labsheet 7: Q13
+
+START
+//Variables
+num1 = 0;
+num2 = 0;
+num3 = 0;
+
+//Display, Input
+display message "Three Numbers Divisible Check" // Heading
+
+display message "Enter first number: "
+input num1
+
+display message "Enter second number: "
+input num2
+
+display message "Enter third number: "
+input num3
+
+// IF, Else
+
+if (num1 % num2 == 0 && num1 % num3 == 0)
+{
+	display message "The first number is exactly divisible by both numbers\n";
+}
+else if (num1 % num2 == 0 || num1 % num3 == 0)
+{
+	display message "The first number is exactly divisible by one of the numbers: \n";
+	if (num1 % num2 == 0)
+	{
+		display message num1 + " % " + num2;
+	}
+	else
+	{
+		display message num1 + " % " + num3;
+	}
+}
+else
+{
+	display message "The first number is not exactly divisible by either number.\n";
+}
+
+// Test data 1: 5 4 10  should be Not divisible by either number
+// Test data 2: 6 10 12 should be Not divisible by either number
+// Test data 3: 3 3 -1 should be Divisible by both numbers
+// Test data 4: 10 5 15 should be 10 % 5 only
+// Test data 5: -3 2 3 should be  -3 % 3 only
+// Test data 6:  1 2 3 should be Not divisible by either number

@@ -1,0 +1,76 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 24/11/25
+// Approximate time taken: 15 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q13: Find the first and last occurrence of the number 9
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test data 1: 5 numbers: 1, 9, 3, 9, 5 -> First occurrence of 9: 2, Last occurrence of 9: 4
+// Test data 2: 3 numbers: 1, 2, 3 -> First occurrence of 9: 0, Last occurrence of 9: 0
+// Test data 3: 6 numbers: 9, 9, 9, 9, 9, 9 -> First occurrence of 9: 1, Last occurrence of 9: 6
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPE
+VOID findOccurences()
+
+MAIN FUNCTION
+
+    findOccurences()
+
+    PAUSE
+
+END MAIN FUNCTION
+
+
+// FUNCTION: findOccurences
+VOID findOccurences()
+
+    // SET VARIABLES
+    INTEGER num
+    INTEGER value
+    INTEGER first = 0
+    INTEGER last = 0
+
+    // INPUT NUMBER OF VALUES
+    DISPLAY MESSAGE "How many numbers do you want to enter? "
+    INPUT num
+
+    // VALIDATE INPUT
+    WHILE (num < 0)
+        DISPLAY MESSAGE "Error"
+        DISPLAY MESSAGE "How many numbers do you want to enter? "
+        INPUT num
+    END WHILE
+
+    // PROCESS EACH INPUT
+    FOR (INTEGER i = 1; i <= num; i++)
+
+        DISPLAY MESSAGE "Enter number " + i + ": "
+        INPUT value
+
+        // CHECK IF VALUE IS 9
+        IF (value == 9) THEN
+
+            // FIRST OCCURRENCE SET ONLY ONCE
+            IF (first == 0) THEN
+                first = i
+            END IF
+
+            // LAST OCCURRENCE UPDATED EVERY TIME
+            last = i
+
+        END IF
+
+    END FOR
+
+    // DISPLAY RESULTS
+    DISPLAY MESSAGE "First occurrence of 9: " + first
+    DISPLAY MESSAGE "Last occurrence of 9: " + last
+
+END FUNCTION
+
+END

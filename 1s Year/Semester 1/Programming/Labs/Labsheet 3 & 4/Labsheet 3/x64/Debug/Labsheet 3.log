@@ -1,0 +1,3 @@
+﻿  Problem 3.cpp
+M:\Programming\Labs\Labsheet 3\Labsheet 3\Labsheet 3\Problem 3.cpp(32,30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Labsheet 3.vcxproj -> M:\Programming\Labs\Labsheet 3\Labsheet 3\x64\Debug\Labsheet 3.exe

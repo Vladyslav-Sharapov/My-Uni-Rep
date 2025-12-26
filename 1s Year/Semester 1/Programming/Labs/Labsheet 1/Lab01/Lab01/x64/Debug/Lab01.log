@@ -1,0 +1,4 @@
+﻿  Lab01.cpp
+G:\Programming\Labs\Labsheet 1\Lab01\Lab01\Lab01.cpp(7,10): warning C4305: 'initializing': truncation from 'double' to 'float'
+G:\Programming\Labs\Labsheet 1\Lab01\Lab01\Lab01.cpp(65,3): warning C4551: function call missing argument list
+  Lab01.vcxproj -> G:\Programming\Labs\Labsheet 1\Lab01\x64\Debug\Lab01.exe

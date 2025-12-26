@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|solutionrelative:Project1 Circle\\Part1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|solutionrelative:Project1 Circle\\Part2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|solutionrelative:Project1 Circle\\Part3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B5A3CCB-CF79-4DF1-99BF-F8F7BC7F716D}|Project1 Circle\\Project1 Circle.vcxproj|solutionrelative:Project1 Circle\\Part4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Part4.cpp",
+              "DocumentMoniker": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part4.cpp",
+              "RelativeDocumentMoniker": "Project1 Circle\\Part4.cpp",
+              "ToolTip": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part4.cpp",
+              "RelativeToolTip": "Project1 Circle\\Part4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-17T08:46:42.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Part3.cpp",
+              "DocumentMoniker": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part3.cpp",
+              "RelativeDocumentMoniker": "Project1 Circle\\Part3.cpp",
+              "ToolTip": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part3.cpp",
+              "RelativeToolTip": "Project1 Circle\\Part3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-17T08:46:42.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Part2.cpp",
+              "DocumentMoniker": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part2.cpp",
+              "RelativeDocumentMoniker": "Project1 Circle\\Part2.cpp",
+              "ToolTip": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part2.cpp",
+              "RelativeToolTip": "Project1 Circle\\Part2.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-17T08:46:41.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Part1.cpp",
+              "DocumentMoniker": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part1.cpp",
+              "RelativeDocumentMoniker": "Project1 Circle\\Part1.cpp",
+              "ToolTip": "M:\\Programming\\Labs\\Labsheet 1\\Labsheet 1 - Template Circle\\Project1 Circle\\Project1 Circle\\Part1.cpp",
+              "RelativeToolTip": "Project1 Circle\\Part1.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-17T08:46:40.091Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

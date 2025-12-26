@@ -1,0 +1,107 @@
+// Name: Vladyslav Sharapov
+// Login: c00325055
+// Date: 19/11/25
+// Approximate time taken: 20 min
+// ---------------------------------------------------------------------------
+// Program: Labsheet 9 - Q10: Using a Menu
+// ---------------------------------------------------------------------------
+// Known Bugs: None
+// ---------------------------------------------------------------------------
+// Test Data 1: 100 (Fahrenheit) // Expected Output 1: 37.7778 Cel
+// Test Data 2: 10 (Inches) // Expected Output 2: 25.4 cm
+// Test Data 3: 32 (Fahrenheit) // Expected Output 3: 0 Cel
+// Test Data 4: 0 (Inches) // Expected Output 4: 0 cm
+// Test Data 5: 212 (Fahrenheit) // Expected Output 5: 100 Cel
+// Test Data 6: 50 (Inches) // Expected Output 6: 127 cm
+// Test Data 7: 3 (Menu Choice) // Expected Output 7: Exiting the program.
+// Test Data 8: 4 (Menu Choice) // Expected Output 8: Invalid choice. Please try again.
+// ---------------------------------------------------------------------------
+
+START
+
+// FUNCTION PROTOTYPES
+VOID fahrenheitToCelsius()
+VOID inchesToCentimetres()
+
+MAIN FUNCTION
+
+    INTEGER choice
+
+    DO
+
+        CLEAR SCREEN
+
+        DISPLAY MESSAGE:
+            "Menu:"
+            "1. Fahrenheit to Celsius"
+            "2. Inches to Centimetres"
+            "3. Exit"
+            "Enter your choice: "
+
+        INPUT choice
+
+        SWITCH (choice)
+
+            CASE 1:
+                CLEAR SCREEN
+                fahrenheitToCelsius()
+                BREAK
+
+            CASE 2:
+                CLEAR SCREEN
+                inchesToCentimetres()
+                BREAK
+
+            CASE 3:
+                DISPLAY MESSAGE "Exiting the program."
+                BREAK
+
+            DEFAULT:
+                DISPLAY MESSAGE "Invalid choice. Please try again."
+                PAUSE
+                BREAK
+
+        END SWITCH
+
+    WHILE (choice != 3)
+
+    PAUSE
+END MAIN FUNCTION
+
+
+// FUNCTION: Fahrenheit to Celsius
+VOID fahrenheitToCelsius()
+
+    FLOAT fahrenheit
+    FLOAT celsius
+
+    DISPLAY MESSAGE "Enter temperature in Fahrenheit: "
+    INPUT fahrenheit
+
+    celsius = (fahrenheit - 32) * 5 / 9
+
+    DISPLAY MESSAGE "Temperature in Celsius: " + celsius + " Cel"
+
+    PAUSE
+
+END FUNCTION
+
+
+// FUNCTION: Inches to Centimetres
+VOID inchesToCentimetres()
+
+    FLOAT inches
+    FLOAT centimetres
+
+    DISPLAY MESSAGE "Enter length in Inches: "
+    INPUT inches
+
+    centimetres = inches * 2.54
+
+    DISPLAY MESSAGE "Length in Centimetres: " + centimetres + " cm"
+
+    PAUSE
+
+END FUNCTION
+
+END

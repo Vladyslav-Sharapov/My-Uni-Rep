@@ -1,0 +1,30 @@
+// 06/10/25
+// Vladyslav Sharapov 
+// Design Algoritms
+// Problem 5: Ordering System (Past Written Exam 1 Question)
+
+START
+
+girders_per_group = 10;
+cost_per_group = 60; //60$
+dollar_to_euro = 0.9;
+number_of_girders = 0;
+
+Display message "Please input number of girders";
+input number_of_girders;
+
+groups_needed = ceil(number_of_girders / girders_per_group); //ceil round up the number
+
+total_cost_dollars = groups_needed * cost_per_group;
+
+total_girders_bought = groups_needed * girders_per_group;
+
+unused_girders = total_girders_bought - number_of_girders;
+
+cost_per_girder = cost_per_group / girders_per_group;
+unused_cost_dollars = unused_girders * cost_per_girder;
+
+total_cost_euro = total_cost_dollars * dollar_to_euro;
+
+Display message "Total cost in euro: " + total_cost_euro
+Display message "Total unused dollars: " + unused_cost_dollars

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|solutionrelative:Labsheet 3\\Problem 7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|solutionrelative:Labsheet 3\\Problem 1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|solutionrelative:Labsheet 3\\Problem 2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|solutionrelative:Labsheet 3\\Problem 3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|solutionrelative:Labsheet 3\\Problem 4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|solutionrelative:Labsheet 3\\Problem 5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B31DC104-0B86-4552-B364-FC2A108541E2}|Labsheet 3\\Labsheet 3.vcxproj|solutionrelative:Labsheet 3\\Problem 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Problem 7.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 7.cpp",
+              "RelativeDocumentMoniker": "Labsheet 3\\Problem 7.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 7.cpp*",
+              "RelativeToolTip": "Labsheet 3\\Problem 7.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T09:12:02.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Problem 6.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 6.cpp",
+              "RelativeDocumentMoniker": "Labsheet 3\\Problem 6.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 6.cpp",
+              "RelativeToolTip": "Labsheet 3\\Problem 6.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-06T09:11:55.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Problem 5.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 5.cpp",
+              "RelativeDocumentMoniker": "Labsheet 3\\Problem 5.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 5.cpp",
+              "RelativeToolTip": "Labsheet 3\\Problem 5.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-01T08:51:47.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Problem 4.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 4.cpp",
+              "RelativeDocumentMoniker": "Labsheet 3\\Problem 4.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 4.cpp",
+              "RelativeToolTip": "Labsheet 3\\Problem 4.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-01T08:51:43.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Problem 3.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 3.cpp",
+              "RelativeDocumentMoniker": "Labsheet 3\\Problem 3.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 3.cpp",
+              "RelativeToolTip": "Labsheet 3\\Problem 3.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-01T08:51:40.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Problem 2.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 2.cpp",
+              "RelativeDocumentMoniker": "Labsheet 3\\Problem 2.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 2.cpp",
+              "RelativeToolTip": "Labsheet 3\\Problem 2.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-01T08:51:35.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Problem 1.cpp",
+              "DocumentMoniker": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 1.cpp",
+              "RelativeDocumentMoniker": "Labsheet 3\\Problem 1.cpp",
+              "ToolTip": "C:\\Users\\vladi\\Downloads\\Labsheet 3\\Labsheet 3\\Labsheet 3\\Problem 1.cpp",
+              "RelativeToolTip": "Labsheet 3\\Problem 1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-01T08:34:32.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
